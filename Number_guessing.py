@@ -4,8 +4,10 @@
 # "You have x attempts remaining to guess the number"
 # "Make a guess: "
 
+# import random, and pick one integer number between 0 and 100 randomly to set it as a gold number.
 import random
 gold_num = random.randint(1,100)
+
 # ask user which difficulty they want in this game
 print("Welcome to the Number Guessing Game!\nI'm thinking of a number between 1 and 100")
 difficulty = input("Choose a difficulty. Type 'easy' or 'hard': ").lower()
