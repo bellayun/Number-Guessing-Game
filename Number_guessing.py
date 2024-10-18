@@ -37,7 +37,7 @@ while attempts > 0:
 
 
 
-# instructor's code
+########## instructor's code ##########
 from random import randint  
 EASY_LEVEL_TURNS = 10
 HARD_LEVEL_TURNS = 5
